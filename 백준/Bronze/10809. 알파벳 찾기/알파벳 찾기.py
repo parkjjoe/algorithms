@@ -1,9 +1,9 @@
 import sys
 
 s = sys.stdin.readline().rstrip()
-alphbet = "abcdefghijklmnopqrstuvwxyz"
+alphabet = "abcdefghijklmnopqrstuvwxyz"
 
-for i in alphbet:
+for i in alphabet:
     if i in s:
         print(s.index(i), end = " ")
     else:
