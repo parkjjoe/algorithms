@@ -16,7 +16,7 @@ for _ in range(t):
     count = 0
 
     for i in range(2, n // 2 + 1):
-        if sosu[i] and sosu[n - i]: # i와 n-i가 소수이면(sosu의 인덱스 값이 1이면 소수이고 i와 n-i를 더하면 n이 된다.) count 1 증가
+        if sosu[i] and sosu[n - i]: # i와 n-i이 소수이면(sosu의 인덱스 값이 1이면 소수이고 i와 n-i를 더하면 n이 된다.) count 1 증가
             count += 1
 
     print(count)
