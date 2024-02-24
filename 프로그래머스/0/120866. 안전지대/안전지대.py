@@ -5,8 +5,8 @@ def solution(board):
     
     # 지뢰 설치
     boom = []
-    for i in range(len(board)):
-        for j in range(len(board)):
+    for i in range(N):
+        for j in range(N):
             if board[i][j] == 1:
                 boom.append((i,j)) # 지뢰일때의 인덱스 append
                     
