@@ -7,7 +7,7 @@ def solution(picture, k):
         for j in i:
             row += j * k
             
-        for count in range(k):
+        for _ in range(k):
             answer.append(row)
     
     return answer
